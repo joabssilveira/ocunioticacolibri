@@ -1065,3 +1065,8 @@ body .container #menu .navbar-toggle {
 #menu .dropown a {
     font-size: 25px;
 }
+
+.slideshow {
+    border: none !important;
+    margin-top: 20px !important;
+}
