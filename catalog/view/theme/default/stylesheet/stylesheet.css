@@ -1015,6 +1015,12 @@ body .container {
     width: 100%;
 }
 
+/* #menu-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+} */
+
 body .container #menu {
     border-radius: 0;
     margin: 0;
@@ -1086,6 +1092,8 @@ body .container #menu {
     padding-right: 45px !important;
 }
 
+
+
 #cart>.btn {
     background: transparent !important;
     box-shadow: none;
@@ -1152,9 +1160,8 @@ body>:not(#top):not(header):not(#common-home) {
 }
 
 @media (min-width: 768px) {
-    #common-home .row #content > *:not(h3) {
-        display: flex !important;
-        justify-content: center !important;
+    .swiper-slide > img {
+        margin: auto;
     }
 }
 
@@ -1199,4 +1206,11 @@ body>:not(#top):not(header):not(#common-home) {
 
 .product-thumb .button-group button+button {
     border: none;
+}
+
+/* PARA COLOCAR O SITE CENTRALIZADO, NAO FULL */
+ #content >:not(.slideshow) {
+    max-width: 1259px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
